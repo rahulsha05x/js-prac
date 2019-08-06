@@ -1,8 +1,8 @@
 # js-prac
 
 # create a function addNum which takes the argument n and return a method which adds n number of parameters passed.
-  ##For example: let add3 = addNum(3)
-                   ## add3(1)(2)(3) // 6;
+  #For example: let add3 = addNum(3)
+                   # add3(1)(2)(3) // 6;
     Answer: function addNum(totalArgs) {
                         totalArgs = totalArgs;
                         return function recursor() {
